@@ -1,0 +1,35 @@
+#header{
+    background: url(../img/banner.jpg)no-repeat center;
+    height: 600px;
+}
+#login a:hover{
+    text-decoration: underline;
+}
+#login a{
+    color: #fff;
+}
+#login, #header h1{
+    color: #fff;
+    width: 380px;
+}
+div.float#cart{
+    width: 260px;
+    height: 30px;
+    background: #000;
+    opacity: 0.5 ;          /* 透明度 */
+    text-align: center;     /* 文字居中 */
+    /*filter: alpha(opacity=50);*/
+    cursor: pointer;      /* 指针变小手 */
+    padding: 8px 12px;
+    color: #ffffff;
+    margin-top: 25px;
+    line-height: 0;
+    float: right;
+}
+#header img{
+    vertical-align: middle;
+}
+#header h1.float{
+    text-align: center;
+;
+}
